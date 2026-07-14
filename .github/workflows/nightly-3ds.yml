@@ -49,11 +49,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-<<<<<<< HEAD
-          name: Tux Pong!
-=======
           name: Tux Pong
->>>>>>> 547407148dc173b52e0cf7f7a0dabec0553ead64
           path: |
             tuxpong.3dsx
             tuxpong.cia
