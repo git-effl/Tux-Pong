@@ -48,5 +48,5 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-          name: Scratch Everywhere! Wii U Nightly
-          path: scratch-wiiu.zip
+          name: Tux Pong!
+          path: tuxpong.zip
