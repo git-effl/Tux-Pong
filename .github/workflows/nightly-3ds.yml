@@ -49,7 +49,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
-          name: Scratch Everywhere! 3DS Nightly
+          name: Tux Pong
           path: |
-            scratch-3ds.3dsx
-            scratch-3ds.cia
+            tuxpong.3dsx
+            tuxpong.cia
