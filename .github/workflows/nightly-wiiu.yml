@@ -1,4 +1,4 @@
-name: Wii U Nightly Build
+name: Wii U Build
 
 on:
   push:
