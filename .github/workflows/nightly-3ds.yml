@@ -44,6 +44,8 @@ jobs:
           file: docker/Dockerfile.3ds
           target: exporter
           outputs: type=local,dest=.
+       - name: Debug - List all files
+         run: ls -R
 
       - name: Upload Artifact
         if: github.event_name != 'pull_request'
@@ -51,5 +53,5 @@ jobs:
         with:
           name: Tux Pong
           path: |
-            **/*.3dsx
-            **/*.cia
+            tuxpong.3dsx
+            tuxpong.cia
