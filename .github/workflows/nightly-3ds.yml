@@ -51,5 +51,5 @@ jobs:
         with:
           name: Tux Pong
           path: |
-            docs/tuxpong.3dsx
-            docs/tuxpong.cia
+            scratch-3ds.3dsx
+            scratch-3ds.cia
