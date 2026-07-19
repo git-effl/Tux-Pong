@@ -42,9 +42,12 @@ jobs:
           file: docker/Dockerfile.wiiu
           target: exporter
           outputs: type=local,dest=.
+          build-args: |
+      BUILDKIT_INLINE_CACHE=1
       - name: Upload Artifact
         if: github.event_name != 'pull_request'
         uses: actions/upload-artifact@v4
         with:
           name: Tux Pong
-          path: docs/tuxpong.zip
+          path:  |
+            scratch-3ds.zip
