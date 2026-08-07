@@ -10,5 +10,8 @@ Konqi Character originally drawn by Stefan Spatz, redrawn by Timothée Giet and 
 
 Music and SFX by https://opengameart.org/
 
+Grand9KPixel font by Jayvee D. Enaguas,licensed under CC-BY-SA 3.0.
+Noto Sans font licensed under SIL Open Font License.
+
 Thanks for playing
 Tux Pong
