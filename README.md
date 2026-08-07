@@ -61,4 +61,3 @@ Scratch Everywhere is licensed under the LGPL,see LICENSE for more details.
 
 Fonts: Grand9K Pixel is created by Jayvee D. Enaguas and licensed under the CC BY-SA 3.0,check GRAND9KPIXEL-LICENSE.txt for more details,
 Noto Sans is licensed under the SIL Open Font License,check NOTOSANS-LICENSE.txt for more details,
-Scratch Everywhere uses Ubuntu for its loader menu,Ubuntu is licensed under the Ubuntu Font license,check any text file that starts with Ubuntu for more details.
