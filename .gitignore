@@ -47,36 +47,6 @@ main.code-workspace
 *.lst
 *.map
 
-# Executables
-*.exe
-*.out
-*.app
-*.3dsx
-*.nacp
-*.pfs0
-*.nro
-*.nso
-*.elf
-*.oelf
-*.smdh
-*.cia
-*.bat
-*.sb3
-*.t3x
-*.dol
-*.wbfs
-*.vpk
-*.ipk
-*.nds
-*.pkg
-romfs/sample.ogg
-romfs/project.sb3_FILES/project.json
-Scratch-pc
-scratch-wiiu/
-scratch-wasm/
-scratch-ds/
-scratch-wii.zip
-scratch-everywhere
 
 # Stored Files
 cloud-username.txt
@@ -84,8 +54,6 @@ cloud-username.txt
 # macOS
 .DS_Store
 
-# fockerdile
-!docker/Dockerfile.nds
 
 .clangd
 
