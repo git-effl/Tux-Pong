@@ -54,8 +54,8 @@ This project relies on:
 
 Original Authors: <a href="https://github.com/NateXS">NateXS</a> and Dogo2009,aka Dogo6647 in GitHub: https://scratchbox.dev/user/Dogo2009 
 
-The Original Nate Pong is licensed under the MIT license,see LICENSE-MIT for more details.
-Nate Pong: Scratch Edition is licensed under CC-BY-SA 2.0,see LICENSE-CC for more details.
+The Original Nate Pong is created by NateXS and its licensed under the MIT license,see LICENSE-MIT for more details.
+Nate Pong: Scratch Edition is created by Dogo2009/Dogo6647/htlabs and its licensed under CC-BY-SA 2.0,see LICENSE-CC for more details.
 
 Engine: Based on <a href="https://github.com/ScratchEverywhere/ScratchEverywhere">Scratch Everywhere!</a>.
 Scratch Everywhere is licensed under the LGPL,see LICENSE for more details.
