@@ -1,8 +1,8 @@
 # Tux Pong! needs help!
 
-Remember when Tux Pong! was i hitaus cuz of a boot error?
-Sadly i can't test Tux Pong cuz of a weird setting on my console. Please! Test it!
-If it works,then its a bug on my console,if not then its in the code,if that ahppens,Tux Pong will go in hiatus again.
+Remember when Tux Pong! was i hiatus cuz of a boot error?
+Sadly i can't test Tux Pong! cuz of a weird setting on my console. Please! Test it!
+If it works,then its a bug on my console,if not then its in the code,if that happens,Tux Pong! will go in hiatus again.
 
 # Tux Pong!
 
