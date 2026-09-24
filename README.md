@@ -1,103 +1,73 @@
-<div align="center">
+# Tux Pong! is now in hiatus.
 
-![Scratch Everywhere! logo](https://raw.githubusercontent.com/ScratchEverywhere/ScratchEverywhere/master/gfx/menu/logo.png)
+Due to development hell, Tux Pong! is now in hiatus,this does not mean it wont be worked on it anymore but im taking a break.
+There is a bug when launching the game,it launches fine but then after 2 seconds the game crashes,not a cfw crash but it goes back to the main menu.
+Now i have found now way to fix it,so i just left it behind.
+Please,if you are a 3DS developer,help me fix this bug,that way Tux Pong! can be replayed by anyone.
+Thanks.
+P.S.
+Don't use AI to fix the bug,use the professional way to fix this bug and that's writing code by mind.
 
-[![Release version](https://img.shields.io/github/v/release/ScratchEverywhere/ScratchEverywhere?color=brightgreen&label=Download&style=for-the-badge)](#installation "Installation")
-[![Discord](https://img.shields.io/discord/1408875318248345612?color=blue&labelColor=555555&label=&logo=discord&style=for-the-badge)](https://discord.gg/Y2gf5vZHpJ "Discord")
-![Commits](https://img.shields.io/github/commit-activity/m/ScratchEverywhere/ScratchEverywhere?label=commits&style=for-the-badge)
+# Tux Pong!
 
-A work-in-progress runtime made in C++ aimed to bring most Scratch 3 projects
-over to 6-8th-generation gaming consoles, handheld platforms, and more!
+Description:
 
-<img alt="Runtime running a Scratch project on Wii U, Wii, and 3DS" src="docs/demo.gif" />
-<br>
-<sub>(Game shown is <a href="https://scratch.mit.edu/projects/1184969400">Hopper Heros</a> by pepper-prepper)</sub>
+A fork of the <a href="https://scratchbox.dev/project/WDvpKgyogs2S">Scratch Version</a> of <a href="https://github.com/NateXS/Pong">Nate Pong</a>, built on the Scratch Everywhere! runtime. Based on Tux,the mascot for Linux,and Konqi,the mascot for KDE.
 
-</div>
 
-> [!WARNING]
-> Scratch Everywhere! is a **work-in-progress**. Not all projects will run
-> correctly, and some features from vanilla Scratch are not supported or are
-> only supported on certain platforms. See the
-> [limitations page](https://ScratchEverywhere.github.io/limitations) for more
-> information.
+Story:
+Tux just learned Ping Pong!
+One day,Tux saw that his friend Konqi was so good at Ping Pong,
+he was able to beat the masters like
+Beastie,Nolok,Wilber and many more.. 
+Tux thinked: "What if i wanted to beat him?"
+So he went home and mastered the game with his coach Gnu.
+The next few days Tux went to Konqi and said:
+"Hello Konqi! Did you know i learned Ping Pong's Basics?" 
+Konqi said:
+"Really Tux? Come here,i wanna see if you're really great at Ping Pong!"
+so they went to the nearest Ping Pong table in the park...
 
-## Documentation
+3DS Installation:
 
-Most of the documentation on how to use Scratch Everywhere! can be found on the
-website: <https://ScratchEverywhere.github.io>.
+Download the latest .cia/.3dsx file from the Releases.
 
-## Features
+For .3dsx files,just put it in your 3ds folder on your 3DS SD Card,then launch it with the Homebrew Launcher.
 
-Scratch Everywhere! supports various console-specific features such as
-dual-screen support on 3DS and DS, as well as fetching usernames from the
-console itself.
+For .cia files,just put it on your cias folder on your 3DS SD Card,then installit via FBI,or your preferred CIA installer,
+then a package should appear in your home menu after installing,open it! Then launch the Tux Pong game.
 
-On top of this, it also supports various enhancements from other modded Scratch
-editors, such as removing clone limits and stage boundaries, as well as running
-projects at custom framerates. It also has some unique functionality, including
-the ability to allow projects to load other projects, and custom extensions that
-can expand its capabilities even further.
+PS2 Installation:
 
-For more information on these features, see the
-[Features page](https://ScratchEverywhere.github.io/features) on the website.
+Download the latest .elf file from the Releases.
 
-## Installation
+Put the .elf file on your desired USB stick,then put it on your PS2,
 
-Installation instructions for Scratch Everywhere! can be found on the
-[website](https://ScratchEverywhere.github.io/install).
+Boot the game via ULaunchELF on FreeDVDBoot or FreeMCBoot.
 
-**Scratch Everywhere! does not come with any Scratch projects.** You will need
-to manually download them from the Scratch website and place them onto your
-console. [ScratchBox](https://scratchbox.dev) has many projects that work well
-with Scratch Everywhere!.
+Wii U Installation:
 
-## Controls
+Install the latest .zip file from the Releases.
 
-![Controls](docs/controls/all.png)
+Extract the .zip file.
 
-### Mouse
+Inside the extracted .zip file there will be another folder,put it on your SD Card at wiiu/apps
 
-**3DS, PS Vita, Wii U GamePad, Handheld Switch:** Use the touchscreen.
+Then launch Tux Pong! from the Wii U menu (Aroma)
+Or launch Tux Pong! from the Homebrew Launcher (Tiramisu,Mocha,Hakchi,etc.)
 
-**Wii Remote:** Use the Wii sensor bar to control the mouse.
+Credits & Licensing:
 
-**Other Controllers:** Enter Mouse Mode by holding L. Use the D-pad to move the
-mouse, and press R to click.
+This project relies on:
 
-## Settings
+<a href="https://scratchbox.dev/project/WDvpKgyogs2S">Nate Pong: Scratch Edition</a>,a port of <a href="https://github.com/NateXS/Pong">Nate Pong</a>  in Scratch.
 
-The behavior of the runtime can be changed with various settings. These include
-changing the mapping of buttons to keys in the project or modifying the behavior
-of some blocks. See the [website](https://ScratchEverywhere.github.io/settings)
-for a list of all settings and what they do.
+Original Authors: <a href="https://github.com/NateXS">NateXS</a> and Dogo2009,aka Dogo6647 in GitHub: https://scratchbox.dev/user/Dogo2009 
 
-## Building
+The Original Nate Pong is created by NateXS and its licensed under the MIT license,see LICENSE-MIT for more details.
 
-There are two primary methods of compiling Scratch Everywhere: **using Docker**
-and **manual compilation**. Both methods are described on the
-[website](https://ScratchEverywhere.github.io/build).
+Engine: Based on <a href="https://github.com/ScratchEverywhere/ScratchEverywhere">Scratch Everywhere!</a>.
+Scratch Everywhere is licensed under the LGPL,see LICENSE for more details.
 
-In addition, you can bundle a project with Scratch Everywhere! and create a
-standalone application or game with the runtime!
-
-## Contributors
-
-Thank you to all the people who have helped with the development (and other
-aspects) of this project!
-
-<p align="center">
-	<a href="https://github.com/ScratchEverywhere/ScratchEverywhere/graphs/contributors">
-	  <img src="https://contrib.rocks/image?repo=ScratchEverywhere/ScratchEverywhere" />
-	</a>
-	<br>
-	<sub>(Made with <a href="https://contrib.rocks">contrib.rocks</a>)</sub>
-</p>
-
-If you would like to contribute to Scratch Everywhere!, see our
-[contributing guide](/CONTRIBUTING.md).
-
-## Disclaimer
-
-This project is not affiliated with Scratch, the Scratch Team, or any of the
-supported platforms' parent companies or organizations.
+Fonts: Grand9K Pixel is created by Jayvee D. Enaguas and licensed under the CC BY-SA 3.0,check GRAND9KPIXEL-LICENSE.txt for more details,
+Noto Sans is licensed under the SIL Open Font License,check NOTOSANS-LICENSE.txt for more details,

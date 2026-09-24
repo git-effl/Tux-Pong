@@ -4,9 +4,31 @@
    id="svg5"
    width="193"
    height="59"
+   sodipodi:docname="block1.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.2385608"
+     inkscape:cx="55.839447"
+     inkscape:cy="-31.493448"
+     inkscape:window-width="1366"
+     inkscape:window-height="697"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
   <defs
      id="defs5" />
   <xhtml:style>
@@ -23,25 +45,4 @@
         fill: #FFFFFF !important;
     }
     </xhtml:style>
-  <g
-     data-id="FjDc{YNV_vmoDHYAThyd"
-     class="blocklyDraggable blocklySelected"
-     data-shapes="stack"
-     data-category="motion"
-     id="g5">
-    <path
-       class="blocklyPath blocklyBlockBackground"
-       stroke="#3373CC"
-       fill="#4C97FF"
-       fill-opacity="1"
-       d="M 2,6 A 4,4 0 0 1 6,2 h 8 c 2,0 3,1 4,2 l 4,4 c 1,1 2,2 4,2 h 12 c 2,0 3,-1 4,-2 l 4,-4 c 1,-1 2,-2 4,-2 h 137.39352 a 4,4 0 0 1 4,4 v 40 a 4,4 0 0 1 -4,4 H 50 c -2,0 -3,1 -4,2 l -4,4 c -1,1 -2,2 -4,2 H 26 c -2,0 -3,-1 -4,-2 L 18,52 C 17,51 16,50 14,50 H 6 A 4,4 0 0 1 2,46 Z"
-       id="path1"
-       style="fill:#f6eff6;fill-opacity:0.7;stroke:#e3e2e4;stroke-opacity:1" />
-    <path
-       class="blocklyPath"
-       style="visibility:hidden"
-       d=""
-       fill="#3373cc"
-       id="path4" />
-  </g>
 </svg>
