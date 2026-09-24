@@ -63,7 +63,6 @@ main.code-workspace
 *.smdh
 *.cia
 *.bat
-*.sb3
 *.t3x
 *.dol
 *.wbfs
