@@ -1,12 +1,8 @@
-# Tux Pong! is now in hiatus.
+# Tux Pong! needs help!
 
-Due to development hell, Tux Pong! is now in hiatus,this does not mean it wont be worked on it anymore but im taking a break.
-There is a bug when launching the game,it launches fine but then after 2 seconds the game crashes,not a cfw crash but it goes back to the main menu.
-Now i have found now way to fix it,so i just left it behind.
-Please,if you are a 3DS developer,help me fix this bug,that way Tux Pong! can be replayed by anyone.
-Thanks.
-P.S.
-Don't use AI to fix the bug,use the professional way to fix this bug and that's writing code by mind.
+Remember when Tux Pong! was i hitaus cuz of a boot error?
+Sadly i can't test Tux Pong cuz of a weird setting on my console. Please! Test it!
+If it works,then its a bug on my console,if not then its in the code,if that ahppens,Tux Pong will go in hiatus again.
 
 # Tux Pong!
 
