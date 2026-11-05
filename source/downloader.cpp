@@ -154,7 +154,8 @@ void DownloadManager::performDownload(std::shared_ptr<DownloadItem> item) {
         item->finished = true;
         item->success = false;
         item->error = "curl init failed";
-        Log::error("DownloadManager: curl init failed", false);
+        // Log::error("DownloadManager: curl init failed", false);
+		std::printf("DownloadManager: curl init failed\n");
         return;
     }
 
