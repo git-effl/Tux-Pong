@@ -108,7 +108,8 @@ bool SoundStream::loadFromBuffer() {
     this->type = SoundStreamUnknown;
 
     if (this->buffer == nullptr || this->buffer_size <= 0) {
-        Log::error("Audio buffer is null.", false);
+        // Log::error("Audio buffer is null.", false);
+		std::printf("Audio buffer is null.\n");
         return false;
     }
     bool success = false;
