@@ -1,5 +1,6 @@
-#include "input.hpp"
+#include "../include/input.hpp"
 #include <log.hpp>
+#include <input_strings.hpp>
 
 std::pair<float, float> Input::leftJoystick = {0, 0};
 std::pair<float, float> Input::rightJoystick = {0, 0};
