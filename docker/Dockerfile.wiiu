@@ -1,5 +1,4 @@
 FROM dkosmari/devkitppc-wiiu-debian:latest AS main_builder
-ENV CATALOG_NON_INTERACTIVE=1
 
 COPY . .
 

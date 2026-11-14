@@ -1,24 +1,8 @@
 #pragma once
 #include "mainMenu.hpp"
-#include <se_export.hpp>
-#ifdef __XBOX__
-#include <map>
-#include <string>
-#endif
 
-class SE_EXPORT PauseMenu : public Menu {
+class PauseMenu : public Menu {
   private:
-    enum class Action { None,
-                        Resume,
-                        Exit,
-                        GreenFlag,
-                        Stop };
-    Action pendingAction = Action::None;
-    void requestAction(Action action);
-    void finishAction(Action action);
-#ifdef __XBOX__
-    std::map<std::string, std::string> gameControls;
-#endif
   public:
     ControlObject *pauseControl = nullptr;
     ButtonObject *backButton = nullptr;

@@ -5,12 +5,12 @@
 out/
 build/
 build-*/
+romfs/
 scratch-everywhere/
 
 # CMake
 cmake/CPM.cmake
 cmake/*cache*/
-cmake/deps/*/
 
 # legacy makefiles
 make/Makefile_vita
@@ -53,6 +53,7 @@ main.code-workspace
 *.exe
 *.out
 *.app
+*.3dsx
 *.nacp
 *.pfs0
 *.nro
@@ -60,24 +61,24 @@ main.code-workspace
 *.elf
 *.oelf
 *.smdh
+*.cia
 *.bat
+*.sb3
 *.t3x
 *.dol
 *.wbfs
+*.vpk
 *.ipk
 *.nds
 *.pkg
+romfs/sample.ogg
+romfs/project.sb3_FILES/project.json
 Scratch-pc
 scratch-wiiu/
 scratch-wasm/
 scratch-ds/
 scratch-wii.zip
-scratch-gamecube.zip
 scratch-everywhere
-scratch-pc
-
-# Dumps
-*.dmp
 
 # Stored Files
 cloud-username.txt

@@ -5,14 +5,13 @@
 #include <input.hpp>
 #include <math.hpp>
 #include <nlohmann/json.hpp>
-#include <renderer.hpp>
-#include <se_export.hpp>
+#include <render.hpp>
 #include <unzip.hpp>
 #ifdef __WIIU__
 #include <whb/sdcard.h>
 #endif
 
-class SE_EXPORT Menu {
+class Menu {
   public:
     bool isInitialized = false;
     virtual void init() = 0;
@@ -21,7 +20,7 @@ class SE_EXPORT Menu {
     virtual ~Menu();
 };
 
-class SE_EXPORT MenuManager {
+class MenuManager {
   private:
     static Menu *currentMenu;
 
@@ -34,7 +33,7 @@ class SE_EXPORT MenuManager {
     static void cleanup();
 };
 
-class SE_EXPORT MainMenu : public Menu {
+class MainMenu : public Menu {
   private:
   public:
     bool shouldExit = false;

@@ -1,3 +1,0 @@
-#pragma once
-// Keep '#' in Scratch variable names out of compiler command-line definitions.
-#define SE_XBOX_TRACE_WATCH_VARIABLES "@trace_watch_definition@"

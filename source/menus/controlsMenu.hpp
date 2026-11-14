@@ -1,8 +1,7 @@
 #pragma once
 #include "mainMenu.hpp"
-#include <se_export.hpp>
 
-class SE_EXPORT ControlsMenu : public Menu {
+class ControlsMenu : public Menu {
   public:
     ButtonObject *backButton = nullptr;
     ButtonObject *applyButton = nullptr;

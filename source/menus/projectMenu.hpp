@@ -1,14 +1,9 @@
 #pragma once
 #include "mainMenu.hpp"
-#include <se_export.hpp>
 
-class SE_EXPORT ProjectMenu : public Menu {
+class ProjectMenu : public Menu {
   public:
-    bool hasProjects = false;
-#ifdef __XBOX__
-    bool awaitingConfirmRelease = true;
-    bool pendingProjectLoad = false;
-#endif
+    bool hasProjects;
     bool shouldGoBack = false;
 
     std::string initProjectName;

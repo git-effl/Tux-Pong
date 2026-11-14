@@ -1,4 +1,4 @@
-#include "input_extension.hpp"
+#include "input.hpp"
 #include "log.hpp"
 #include "meta.hpp"
 #include <input.hpp>
@@ -61,17 +61,17 @@ void extensions::input::registerAPI(Extension *extension) {
         if (button.value() == "middle") return Input::mousePointer.mouseButton == Input::Mouse::MIDDLE;
         if (button.value() == "right") return Input::mousePointer.mouseButton == Input::Mouse::RIGHT;
 
-        Log::logCritical("Invalid mouse button: " + button.value(), false);
+        Log::logError("Invalid mouse button: " + button.value());
         return false;
     };
 
     extension->luaState["input"]["getAxis"] = [](std::string joystick, std::string axis) -> float {
         if (joystick != "left" && joystick != "right") {
-            Log::logCritical("Invalid joystick: " + joystick, false);
+            Log::logError("Invalid joystick: " + joystick);
             return 0;
         }
         if (axis != "x" && axis != "y") {
-            Log::logCritical("Invalid axis: " + axis, false);
+            Log::logError("Invalid axis: " + axis);
             return 0;
         }
 

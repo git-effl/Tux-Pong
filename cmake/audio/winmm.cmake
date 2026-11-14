@@ -1,1 +1,0 @@
-target_link_libraries(renderer_interface INTERFACE winmm)

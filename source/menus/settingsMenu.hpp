@@ -1,17 +1,11 @@
 #pragma once
-#include "audio.hpp"
 #include "mainMenu.hpp"
 #include "menuObjects.hpp"
-#include "window.hpp"
-#include <se_export.hpp>
 
-class SE_EXPORT SettingsMenu : public Menu {
+class SettingsMenu : public Menu {
   private:
     void updateButtonStates();
     std::string getDectalkString();
-#ifdef ENABLE_DISCORD_RPC
-    std::string getDiscordString();
-#endif
 
   public:
     ControlObject *settingsControl = nullptr;
@@ -22,13 +16,9 @@ class SE_EXPORT SettingsMenu : public Menu {
     ButtonObject *EnableCustomFolderPath = nullptr;
     ButtonObject *ChangeFolderPath = nullptr;
     ButtonObject *EnableMenuMusic = nullptr;
-    ButtonObject *RendererButton = nullptr;
-    ButtonObject *WindowingButton = nullptr;
-    ButtonObject *AudioEngineButton = nullptr;
     ButtonObject *ClearCache = nullptr;
     ButtonObject *Language = nullptr;
     ButtonObject *dectalkButton = nullptr;
-    ButtonObject *discordButton = nullptr;
 
     bool UseCostumeUsername = false;
     std::string username;
@@ -38,26 +28,10 @@ class SE_EXPORT SettingsMenu : public Menu {
 
     bool menuMusic = true;
 
-    std::vector<RendererInfo> validRenderers;
-    unsigned int rendererIdx = 0;
-    std::string rendererOption = "";
-
-    std::vector<WindowingBackendInfo> validWindowingBackends;
-    unsigned int windowingIdx = 0;
-    std::string windowingOption = "";
-
-    std::vector<AudioBackendInfo> validAudioBackends;
-    unsigned int audioIdx = 0;
-    std::string audioOption = "";
-
 #ifdef DECTALK_DEFAULT
     bool UseDectalk = true;
 #else
     bool UseDectalk = false;
-#endif
-
-#ifdef ENABLE_DISCORD_RPC
-    bool UseDiscord = true;
 #endif
 
     SettingsMenu();

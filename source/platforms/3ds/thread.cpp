@@ -1,7 +1,6 @@
 #include <3ds.h>
 #include <algorithm>
 #include <thread.hpp>
-extern "C" u32 __stacksize__ = 0x100000;
 
 struct SE_Thread::Impl {
     Thread thread;

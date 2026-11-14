@@ -19,13 +19,13 @@ struct FilesWrapper {
         if (!hasPermission(ExtensionPermission::LOCALFS)) return;
         if (!FileSystem::fileExists(extensionDataRoot)) {
             if (!FileSystem::createDirectory(extensionDataRoot).has_value()) {
-                Log::logCritical("Failed to create extension data directory.", false);
+                Log::logError("Failed to create extension data directory.");
                 return;
             }
         }
         if (!FileSystem::fileExists(localRoot)) {
             if (!FileSystem::createDirectory(localRoot).has_value()) {
-                Log::logCritical("Failed to create extension data directory for: " + ext->id, false);
+                Log::logError("Failed to create extension data directory for: " + ext->id);
                 return;
             }
         }
@@ -143,7 +143,7 @@ struct FilesWrapper {
 
         auto files = FileSystem::listDirectory(fullPath);
         if (!files.has_value()) {
-            Log::logCritical("Error while reading directory, " + fullPath + ": " + files.error(), false);
+            Log::logError("Error while reading directory, " + fullPath + ": " + files.error());
             return sol::lua_nil;
         }
 

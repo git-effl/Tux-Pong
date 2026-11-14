@@ -7,13 +7,14 @@ SCRATCH_BLOCK(sceneManager, receivedData) {
     *outValue = Scratch::dataNextProject;
     return BlockResult::CONTINUE;
 }
-SCRATCH_BLOCK_SIGNATURE(sceneManager, receivedData);
 
 SCRATCH_BLOCK(sceneManager, openSB3) {
-    if (!Scratch::getInputValueAs(block, "arg0", thread, sprite, Unzip::filePath)) return BlockResult::REPEAT;
+    Value arg0;
+    if (!Scratch::getInput(block, "arg0", thread, sprite, arg0)) return BlockResult::REPEAT;
 
     Log::log("[SceneManager] Open next Project with Block");
     Scratch::nextProject = true;
+    Unzip::filePath = arg0.asString();
     if (Unzip::filePath.rfind("sd:", 0) == 0) {
         const std::string drivePrefix = OS::getFilesystemRootPrefix();
         Unzip::filePath.replace(0, 3, drivePrefix);
@@ -34,15 +35,15 @@ SCRATCH_BLOCK(sceneManager, openSB3) {
     Scratch::shouldStop = true;
     return BlockResult::RETURN;
 }
-SCRATCH_BLOCK_SIGNATURE(sceneManager, openSB3, {"arg0", BytecodeStackKind::String});
 
 SCRATCH_BLOCK(sceneManager, openSB3withData) {
-    Value arg1;
-    if (!Scratch::getInputValueAs(block, "arg0", thread, sprite, Unzip::filePath) ||
-        !Scratch::getInputValue(block, "arg1", thread, sprite, arg1)) return BlockResult::REPEAT;
+    Value arg0, arg1;
+    if (!Scratch::getInput(block, "arg0", thread, sprite, arg0) ||
+        !Scratch::getInput(block, "arg1", thread, sprite, arg1)) return BlockResult::REPEAT;
 
     Log::log("[SceneManager] Open next Project with Block and data");
     Scratch::nextProject = true;
+    Unzip::filePath = arg0.asString();
     if (Unzip::filePath.rfind("sd:", 0) == 0) {
         const std::string drivePrefix = OS::getFilesystemRootPrefix();
         Unzip::filePath.replace(0, 3, drivePrefix);
@@ -62,4 +63,3 @@ SCRATCH_BLOCK(sceneManager, openSB3withData) {
     Scratch::shouldStop = true;
     return BlockResult::RETURN;
 }
-SCRATCH_BLOCK_SIGNATURE(sceneManager, openSB3withData, {"arg0", BytecodeStackKind::String}, {"arg1", BytecodeStackKind::Value});
