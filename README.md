@@ -62,4 +62,4 @@ Scratch Everywhere is licensed under the LGPL,see LICENSE for more details.
 Fonts: Grand9K Pixel is created by Jayvee D. Enaguas and licensed under the CC BY-SA 3.0,check GRAND9KPIXEL-LICENSE.txt for more details,
 Noto Sans is licensed under the SIL Open Font License,check NOTOSANS-LICENSE.txt for more details,
 
-Characters: Tux is drawn by Larry Ewing,designed in GIMP,Modern Konqi is drawn by Tyson Tan,licensed under [CC-BY-SA 4.0](KONQI.TXT) and [LGPL2.1](KONQI2.TXT)
+Characters: Tux is originally drawn by Larry Ewing,designed in GIMP,Modern Konqi is originally drawn by Tyson Tan,licensed under [CC-BY-SA 4.0](KONQI.TXT) and [LGPL2.1](KONQI2.TXT)
