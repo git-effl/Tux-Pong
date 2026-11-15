@@ -4,6 +4,8 @@ Description:
 
 A fork of the <a href="https://scratchbox.dev/project/WDvpKgyogs2S">Scratch Version</a> of <a href="https://github.com/NateXS/Pong">Nate Pong</a>, built on the Scratch Everywhere! runtime. Based on Tux,the mascot for Linux,and Konqi,the mascot for KDE.
 
+You can play with a CPU (Singleplayer) or online! (Online Multiplayer is W.I.P,we're searching someone to fix it)
+
 
 Story:
 Tux just learned Ping Pong!
