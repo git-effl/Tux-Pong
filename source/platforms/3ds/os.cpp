@@ -51,7 +51,7 @@ std::string OS::getRomFSLocation() {
 bool OS::isOnline() {
     u32 wifiEnabled = 0;
     ACU_GetWifiStatus(&wifiEnabled);
-    if (wifiEnabled == AC_AP_TYPE_NONE) return false;
+    if (wifiEnabled != AC_AP_TYPE_NONE) return false;
     return true;
 }
 
