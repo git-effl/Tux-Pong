@@ -172,7 +172,7 @@ AccessControlInfo:
    - nwm::UDS
    - ptm:u
    - qtm:u
-   - soc:U
+   - soc:u
    - ssl:C
    - y2r:u
 
